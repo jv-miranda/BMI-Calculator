@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora IMC</title>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sen&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>
+        CALCULADORA <strong>IMC</strong>
+    </h1>
+    
+    <main>
+        <div class="cards">
+            <div class="card" id="card_01">
+                <p id="p1">Altura em CM</p>
+                <input type="number" name="input_01" id="input_01" min="100" max="300">
+
+                <p id="p2">Peso em KG</p>
+                <input type="number" name="input_02" id="input_03" min="100" max="300">
+
+                <div class="button">CALCULAR</div>
+            </div>
+
+            <div class="card" id="card_02">
+                <p id="p3">O seu resultado é:</p>
+
+                <div class="result_01">
+                    <span id="circle_01"></span>
+                    <p id="p4">
+                        Abaixo do Peso (IMC: Abaixo de 18,5)
+                    </p>
+                </div>
+
+                <div class="result_02">
+                    <span id="circle_02"></span>
+                    <p id="p5">
+                        Peso Normal (IMC: 18,5 - 24,9)
+                    </p>
+                </div>
+
+                <div class="result_03">
+                    <span id="circle_03"></span>
+                    <p id="p6">
+                        Sobrepeso (IMC: 25 - 29,9)
+                    </p>
+                </div>
+
+                <div class="result_04">
+                    <span id="circle_04"></span>
+                    <p id="p7">
+                        Obesidade Grau 1 (IMC: 30 - 34,9)
+                    </p>
+                </div>
+
+                <div class="result_05">
+                    <span id="circle_05"></span>
+                    <p id="p8">
+                        Obesidade Grau 2 (IMC: 35 - 34,9)
+                    </p>
+                </div>
+
+                <div class="result_06">
+                    <span id="circle_06"></span>
+                    <p id="p9">
+                        Obesidade Morbida (IMC: 40 ou mais)
+                    </p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <address>
+        <img src="images/authors-image.png" alt="">
+
+        <p id="p10">
+            Essa ferramenta foi desenvolvida por <strong>@João Vitor Miranda</strong>
+        </p>
+    </address>
+</body>
+</html>
