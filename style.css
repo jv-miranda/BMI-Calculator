@@ -156,7 +156,7 @@ span {
     background-color: #370404 ;
 }
 
-address {
+.linkedin_link {
     display: flex;
     justify-content: center;
     align-items: center;
