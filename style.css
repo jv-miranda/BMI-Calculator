@@ -22,12 +22,15 @@ body {
 
 h1 {
     font-size: 3.438rem;
-    text-align: center;
+    display: flex;
+    justify-content: center;
     margin-top: 3%;
     margin-left: 10%;
     margin-right: 10%;
     margin-bottom: 3%;
+    flex-wrap: wrap;
 }
+
 
 strong {
     color: #14FF00;
