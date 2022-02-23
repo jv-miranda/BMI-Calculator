@@ -7,6 +7,10 @@
     text-decoration: none;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 p {
     font-size: 1.125rem;
 }
@@ -236,7 +240,7 @@ span {
     }
 }
 
-@media (max-width:430px) {
+@media (max-width: 430px) {
     h1 {
         font-size: 2.4rem;
     }
